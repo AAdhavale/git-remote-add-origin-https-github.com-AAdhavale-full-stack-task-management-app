@@ -135,14 +135,6 @@ export const menu_list = [
     },
     {
         _id: "2",
-        name: "Caesar Salad",
-        image: food_2,
-        price: 350,
-        description: "Romaine lettuce with Caesar dressing, croutons, and parmesan cheese.",
-        category: "Salad"
-    },
-    {
-        _id: "3",
         name: "Cobb Salad",
         image: food_3,
         price: 450,
@@ -150,7 +142,7 @@ export const menu_list = [
         category: "Salad"
     },
     {
-        _id: "4",
+        _id: "3",
         name: "Caprese Salad",
         image: food_4,
         price: 320,
@@ -158,7 +150,7 @@ export const menu_list = [
         category: "Salad"
     },
     {
-        _id: "5",
+        _id: "4",
         name: "Garden Salad",
         image: food_5,
         price: 280,
@@ -166,25 +158,17 @@ export const menu_list = [
         category: "Salad"
     },
     {
-        _id: "6",
+        _id: "5",
         name: "Quinoa Salad",
         image: food_6,
         price: 400,
         description: "A protein-packed salad with quinoa, veggies, and dressing.",
         category: "Salad"
     },
-    {
-        _id: "7",
-        name: "Spinach and Strawberry Salad",
-        image: food_7,
-        price: 350,
-        description: "A sweet and savory blend of spinach, strawberries, and vinaigrette.",
-        category: "Salad"
-    },
-
+    
     // Rolls
     {
-        _id: "8",
+        _id: "6",
         name: "Chicken Kathi Roll",
         image: food_8,
         price: 200,
@@ -192,7 +176,7 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "9",
+        _id: "7",
         name: "Paneer Tikka Roll",
         image: food_9,
         price: 180,
@@ -200,7 +184,7 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "10",
+        _id: "8",
         name: "Egg Roll",
         image: food_10,
         price: 150,
@@ -208,7 +192,7 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "11",
+        _id: "9",
         name: "Veggie Spring Roll",
         image: food_11,
         price: 120,
@@ -216,7 +200,7 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "12",
+        _id: "10",
         name: "Chicken Shawarma Roll",
         image: food_12,
         price: 250,
@@ -224,7 +208,7 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "13",
+        _id: "11",
         name: "Cheese Roll",
         image: food_13,
         price: 140,
@@ -232,17 +216,17 @@ export const menu_list = [
         category: "Rolls"
     },
     {
-        _id: "14",
+        _id: "12",
         name: "Spicy Potato Roll",
         image: food_14,
         price: 130,
         description: "Mashed spiced potatoes rolled with tangy sauce.",
         category: "Rolls"
     },
-
+    
     // Desserts
     {
-        _id: "15",
+        _id: "13",
         name: "Chocolate Brownie",
         image: food_15,
         price: 120,
@@ -250,7 +234,7 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "16",
+        _id: "14",
         name: "Gulab Jamun",
         image: food_16,
         price: 100,
@@ -258,7 +242,7 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "17",
+        _id: "15",
         name: "Ice Cream Sundae",
         image: food_17,
         price: 180,
@@ -266,7 +250,7 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "18",
+        _id: "16",
         name: "Tiramisu",
         image: food_18,
         price: 300,
@@ -274,7 +258,7 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "19",
+        _id: "17",
         name: "Cheesecake",
         image: food_19,
         price: 350,
@@ -282,7 +266,7 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "20",
+        _id: "18",
         name: "Apple Pie",
         image: food_20,
         price: 220,
@@ -290,304 +274,305 @@ export const menu_list = [
         category: "Desserts"
     },
     {
-        _id: "21",
+        _id: "19",
         name: "Mousse",
         image: food_21,
         price: 200,
         description: "A light and airy dessert in various flavors.",
         category: "Desserts"
     },
-        // Sandwich
-        {
-            _id: "22",
-            name: "Grilled Cheese Sandwich",
-            image: food_22,
-            price: 150,
-            description: "A classic sandwich with melted cheese and crispy bread.",
-            category: "Sandwich"
-        },
-        {
-            _id: "23",
-            name: "Club Sandwich",
-            image: food_23,
-            price: 200,
-            description: "A triple-layer sandwich with chicken, lettuce, and mayo.",
-            category: "Sandwich"
-        },
-        {
-            _id: "24",
-            name: "Veggie Delight Sandwich",
-            image: food_24,
-            price: 140,
-            description: "A healthy sandwich packed with fresh veggies and sauce.",
-            category: "Sandwich"
-        },
-        {
-            _id: "25",
-            name: "BLT Sandwich",
-            image: food_25,
-            price: 220,
-            description: "Bacon, lettuce, and tomato with a tangy spread.",
-            category: "Sandwich"
-        },
-        {
-            _id: "26",
-            name: "Chicken Panini",
-            image: food_26,
-            price: 250,
-            description: "A pressed sandwich filled with grilled chicken and cheese.",
-            category: "Sandwich"
-        },
-        {
-            _id: "27",
-            name: "Egg Salad Sandwich",
-            image: food_27,
-            price: 180,
-            description: "Creamy egg salad layered between soft bread slices.",
-            category: "Sandwich"
-        },
-        {
-            _id: "28",
-            name: "Caprese Sandwich",
-            image: food_28,
-            price: 200,
-            description: "Fresh mozzarella, tomatoes, and basil in a baguette.",
-            category: "Sandwich"
-        },
     
-        // Cakes
-        {
-            _id: "29",
-            name: "Chocolate Cake",
-            image: food_29,
-            price: 350,
-            description: "Rich and moist chocolate cake topped with ganache.",
-            category: "Cakes"
-        },
-        {
-            _id: "30",
-            name: "Red Velvet Cake",
-            image: food_30,
-            price: 400,
-            description: "A vibrant red cake layered with cream cheese frosting.",
-            category: "Cakes"
-        },
-        {
-            _id: "31",
-            name: "Vanilla Sponge Cake",
-            image: food_31,
-            price: 300,
-            description: "A light and fluffy vanilla-flavored cake.",
-            category: "Cakes"
-        },
-        {
-            _id: "32",
-            name: "Black Forest Cake",
-            image: food_32,
-            price: 450,
-            description: "Chocolate sponge layered with cream and cherries.",
-            category: "Cakes"
-        },
-        {
-            _id: "33",
-            name: "Carrot Cake",
-            image: food_33,
-            price: 380,
-            description: "A moist cake with carrots and cream cheese frosting.",
-            category: "Cakes"
-        },
-        {
-            _id: "34",
-            name: "Pineapple Cake",
-            image: food_34,
-            price: 300,
-            description: "A tropical-flavored cake with pineapple chunks and cream.",
-            category: "Cakes"
-        },
-        {
-            _id: "35",
-            name: "Lemon Drizzle Cake",
-            image: food_35,
-            price: 350,
-            description: "A zesty and sweet cake with a lemon glaze.",
-            category: "Cakes"
-        },
+    // Sandwich
+    {
+        _id: "20",
+        name: "Grilled Cheese Sandwich",
+        image: food_22,
+        price: 150,
+        description: "A classic sandwich with melted cheese and crispy bread.",
+        category: "Sandwich"
+    },
+    {
+        _id: "21",
+        name: "Club Sandwich",
+        image: food_23,
+        price: 200,
+        description: "A triple-layer sandwich with chicken, lettuce, and mayo.",
+        category: "Sandwich"
+    },
+    {
+        _id: "22",
+        name: "Veggie Delight Sandwich",
+        image: food_24,
+        price: 140,
+        description: "A healthy sandwich packed with fresh veggies and sauce.",
+        category: "Sandwich"
+    },
+    {
+        _id: "23",
+        name: "BLT Sandwich",
+        image: food_25,
+        price: 220,
+        description: "Bacon, lettuce, and tomato with a tangy spread.",
+        category: "Sandwich"
+    },
+    {
+        _id: "24",
+        name: "Chicken Panini",
+        image: food_26,
+        price: 250,
+        description: "A pressed sandwich filled with grilled chicken and cheese.",
+        category: "Sandwich"
+    },
+    {
+        _id: "25",
+        name: "Egg Salad Sandwich",
+        image: food_27,
+        price: 180,
+        description: "Creamy egg salad layered between soft bread slices.",
+        category: "Sandwich"
+    },
+    {
+        _id: "26",
+        name: "Caprese Sandwich",
+        image: food_28,
+        price: 200,
+        description: "Fresh mozzarella, tomatoes, and basil in a baguette.",
+        category: "Sandwich"
+    },
     
-        // Vegfoods
-        {
-            _id: "36",
-            name: "Vegetable Biryani",
-            image: food_36,
-            price: 250,
-            description: "Aromatic rice cooked with mixed vegetables and spices.",
-            category: "Vegfoods"
-        },
-        {
-            _id: "37",
-            name: "Paneer Butter Masala",
-            image: food_37,
-            price: 300,
-            description: "Cottage cheese in a rich and creamy tomato gravy.",
-            category: "Vegfoods"
-        },
-        {
-            _id: "38",
-            name: "Chole Bhature",
-            image: food_38,
-            price: 200,
-            description: "Spiced chickpeas served with deep-fried bread.",
-            category: "Vegfoods"
-        },
-        {
-            _id: "39",
-            name: "Aloo Gobi",
-            image: food_39,
-            price: 180,
-            description: "Potato and cauliflower cooked with Indian spices.",
-            category: "Vegfoods"
-        },
-        {
-            _id: "40",
-            name: "Palak Paneer",
-            image: food_40,
-            price: 320,
-            description: "Spinach and paneer curry seasoned with spices.",
-            category: "Vegfoods"
-        },
+    // Rest of the categories follow the same sequence.
+    // Cakes
+{
+    _id: "27",
+    name: "Chocolate Cake",
+    image: food_29,
+    price: 350,
+    description: "Rich and moist chocolate cake topped with ganache.",
+    category: "Cakes"
+},
+{
+    _id: "28",
+    name: "Red Velvet Cake",
+    image: food_30,
+    price: 400,
+    description: "A vibrant red cake layered with cream cheese frosting.",
+    category: "Cakes"
+},
+{
+    _id: "29",
+    name: "Vanilla Sponge Cake",
+    image: food_31,
+    price: 300,
+    description: "A light and fluffy vanilla-flavored cake.",
+    category: "Cakes"
+},
+{
+    _id: "30",
+    name: "Black Forest Cake",
+    image: food_32,
+    price: 450,
+    description: "Chocolate sponge layered with cream and cherries.",
+    category: "Cakes"
+},
+{
+    _id: "31",
+    name: "Carrot Cake",
+    image: food_33,
+    price: 380,
+    description: "A moist cake with carrots and cream cheese frosting.",
+    category: "Cakes"
+},
+{
+    _id: "32",
+    name: "Pineapple Cake",
+    image: food_34,
+    price: 300,
+    description: "A tropical-flavored cake with pineapple chunks and cream.",
+    category: "Cakes"
+},
+{
+    _id: "33",
+    name: "Lemon Drizzle Cake",
+    image: food_35,
+    price: 350,
+    description: "A zesty and sweet cake with a lemon glaze.",
+    category: "Cakes"
+},
 
-        
-        {
-            _id: "41",
-            name: "Dal Tadka",
-            image: food_41,
-            price: 150,
-            description: "Lentils tempered with garlic, cumin, and ghee.",
-            category: "Vegfoods"
-        },
-        {
-            _id: "42",
-            name: "Vegetable Korma",
-            image: food_42,
-            price: 280,
-            description: "A creamy curry made with mixed vegetables and nuts.",
-            category: "Vegfoods"
-        },
-    
-        // Pastas
-        {
-            _id: "43",
-            name: "Penne Arrabbiata",
-            image: food_43,
-            price: 200,
-            description: "Penne pasta tossed in a spicy tomato sauce.",
-            category: "Pastas"
-        },
-        {
-            _id: "44",
-            name: "Spaghetti Carbonara",
-            image: food_44,
-            price: 300,
-            description: "Spaghetti with creamy sauce, pancetta, and parmesan.",
-            category: "Pastas"
-        },
-        {
-            _id: "45",
-            name: "Fettuccine Alfredo",
-            image: food_45,
-            price: 320,
-            description: "Fettuccine pasta with rich and creamy Alfredo sauce.",
-            category: "Pastas"
-        },
-        {
-            _id: "46",
-            name: "Mac and Cheese",
-            image: food_46,
-            price: 250,
-            description: "Comfort food made with macaroni and melted cheese.",
-            category: "Pastas"
-        },
-        {
-            _id: "47",
-            name: "Pesto Pasta",
-            image: food_47,
-            price: 280,
-            description: "Pasta tossed in fresh basil pesto sauce.",
-            category: "Pastas"
-        },
-        {
-            _id: "48",
-            name: "Lasagna",
-            image: food_48,
-            price: 400,
-            description: "Layered pasta with meat or veggies, sauce, and cheese.",
-            category: "Pastas"
-        },
-        {
-            _id: "49",
-            name: "Ravioli",
-            image: food_49,
-            price: 350,
-            description: "Stuffed pasta served with a sauce of your choice.",
-            category: "Pastas"
-        },
-    
-        // Noodles
-        {
-            _id: "50",
-            name: "Hakka Noodles",
-            image: food_50,
-            price: 200,
-            description: "Stir-fried noodles with vegetables and soy sauce.",
-            category: "Noodles"
-        },
-        {
-            _id: "51",
-            name: "Chow Mein",
-            image: food_51,
-            price: 220,
-            description: "Crispy stir-fried noodles with chicken or vegetables.",
-            category: "Noodles"
-        },
-        {
-            _id: "52",
-            name: "Pad Thai",
-            image: food_52,
-            price: 300,
-            description: "Thai-style stir-fried rice noodles with tamarind sauce.",
-            category: "Noodles"
-        },
-        {
-            _id: "53",
-            name: "Singapore Noodles",
-            image: food_53,
-            price: 280,
-            description: "Spicy noodles with curry flavor and mixed vegetables.",
-            category: "Noodles"
-        },
-        {
-            _id: "54",
-            name: "Udon Noodles",
-            image: food_54,
-            price: 320,
-            description: "Thick Japanese noodles served in a flavorful broth.",
-            category: "Noodles"
-        },
-        {
-            _id: "55",
-            name: "Ramen",
-            image: food_55,
-            price: 350,
-            description: "Japanese noodle soup with toppings like egg and pork.",
-            category: "Noodles"
-        },
-        {
-            _id: "56",
-            name: "Korean Spicy Noodles",
-            image: food_56,
-            price: 300,
-            description: "Hot and spicy noodles with Korean flavors.",
-            category: "Noodles"
-        },
+// Vegfoods
+{
+    _id: "34",
+    name: "Vegetable Biryani",
+    image: food_36,
+    price: 250,
+    description: "Aromatic rice cooked with mixed vegetables and spices.",
+    category: "Vegfoods"
+},
+{
+    _id: "35",
+    name: "Paneer Butter Masala",
+    image: food_37,
+    price: 300,
+    description: "Cottage cheese in a rich and creamy tomato gravy.",
+    category: "Vegfoods"
+},
+{
+    _id: "36",
+    name: "Chole Bhature",
+    image: food_38,
+    price: 200,
+    description: "Spiced chickpeas served with deep-fried bread.",
+    category: "Vegfoods"
+},
+{
+    _id: "37",
+    name: "Aloo Gobi",
+    image: food_39,
+    price: 180,
+    description: "Potato and cauliflower cooked with Indian spices.",
+    category: "Vegfoods"
+},
+{
+    _id: "38",
+    name: "Palak Paneer",
+    image: food_40,
+    price: 320,
+    description: "Spinach and paneer curry seasoned with spices.",
+    category: "Vegfoods"
+},
+{
+    _id: "39",
+    name: "Dal Tadka",
+    image: food_41,
+    price: 150,
+    description: "Lentils tempered with garlic, cumin, and ghee.",
+    category: "Vegfoods"
+},
+{
+    _id: "40",
+    name: "Vegetable Korma",
+    image: food_42,
+    price: 280,
+    description: "A creamy curry made with mixed vegetables and nuts.",
+    category: "Vegfoods"
+},
+
+// Pastas
+{
+    _id: "41",
+    name: "Penne Arrabbiata",
+    image: food_43,
+    price: 200,
+    description: "Penne pasta tossed in a spicy tomato sauce.",
+    category: "Pastas"
+},
+{
+    _id: "42",
+    name: "Spaghetti Carbonara",
+    image: food_44,
+    price: 300,
+    description: "Spaghetti with creamy sauce, pancetta, and parmesan.",
+    category: "Pastas"
+},
+{
+    _id: "43",
+    name: "Fettuccine Alfredo",
+    image: food_45,
+    price: 320,
+    description: "Fettuccine pasta with rich and creamy Alfredo sauce.",
+    category: "Pastas"
+},
+{
+    _id: "44",
+    name: "Mac and Cheese",
+    image: food_46,
+    price: 250,
+    description: "Comfort food made with macaroni and melted cheese.",
+    category: "Pastas"
+},
+{
+    _id: "45",
+    name: "Pesto Pasta",
+    image: food_47,
+    price: 280,
+    description: "Pasta tossed in fresh basil pesto sauce.",
+    category: "Pastas"
+},
+{
+    _id: "46",
+    name: "Lasagna",
+    image: food_48,
+    price: 400,
+    description: "Layered pasta with meat or veggies, sauce, and cheese.",
+    category: "Pastas"
+},
+{
+    _id: "47",
+    name: "Ravioli",
+    image: food_49,
+    price: 350,
+    description: "Stuffed pasta served with a sauce of your choice.",
+    category: "Pastas"
+},
+
+// Noodles
+{
+    _id: "48",
+    name: "Hakka Noodles",
+    image: food_50,
+    price: 200,
+    description: "Stir-fried noodles with vegetables and soy sauce.",
+    category: "Noodles"
+},
+{
+    _id: "49",
+    name: "Chow Mein",
+    image: food_51,
+    price: 220,
+    description: "Crispy stir-fried noodles with chicken or vegetables.",
+    category: "Noodles"
+},
+{
+    _id: "50",
+    name: "Pad Thai",
+    image: food_52,
+    price: 300,
+    description: "Thai-style stir-fried rice noodles with tamarind sauce.",
+    category: "Noodles"
+},
+{
+    _id: "51",
+    name: "Singapore Noodles",
+    image: food_53,
+    price: 280,
+    description: "Spicy noodles with curry flavor and mixed vegetables.",
+    category: "Noodles"
+},
+{
+    _id: "52",
+    name: "Udon Noodles",
+    image: food_54,
+    price: 320,
+    description: "Thick Japanese noodles served in a flavorful broth.",
+    category: "Noodles"
+},
+{
+    _id: "53",
+    name: "Ramen",
+    image: food_55,
+    price: 350,
+    description: "Japanese noodle soup with toppings like egg and pork.",
+    category: "Noodles"
+},
+{
+    _id: "54",
+    name: "Korean Spicy Noodles",
+    image: food_56,
+    price: 300,
+    description: "Hot and spicy noodles with Korean flavors.",
+    category: "Noodles"
+}
+
         
     ];
     
