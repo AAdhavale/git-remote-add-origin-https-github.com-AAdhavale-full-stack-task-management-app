@@ -4,7 +4,7 @@ import { assets } from '../../assets/Assets'
 
 const NavBar = () => {
 
-  const [category, setCategory] = useState("home");
+  const [menu, setMenu] = useState("home");
 
   return (
     <div className='navbar'>
@@ -12,9 +12,10 @@ const NavBar = () => {
       
 
       <ul className='navbar-menu'>
-        <li onClick={ () => setCategory("home")} className= {category === "home" ? "active" : ""} >home</li>
-        <li onClick={ () => setCategory("category")} className= {category === "category" ? "active" : ""} >category</li>
-        <li onClick={ () => setCategory("contact-us")} className= {category === "contact-us" ? "active" : ""} >contact us</li>
+        <li onClick={ () => setMenu("home")} className= {menu === "home" ? "active" : ""} >home</li>
+        <li onClick={ () => setMenu("menu")} className= {menu === "menu" ? "active" : ""}>menu</li>
+       <li onClick={ () => setMenu("category")} className= {menu === "category" ? "active" : ""} >category</li>
+        <li onClick={ () => setMenu("contact-us")} className= {menu === "contact-us" ? "active" : ""} >contact us</li>
       </ul>
 
       <div className='navbar-right' >
