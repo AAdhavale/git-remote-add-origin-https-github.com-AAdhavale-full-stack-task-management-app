@@ -80,6 +80,7 @@ const Cart = () => {
             <div className="cart-promocode-input">
               <input type='text' placeholder='Promocode'/>
               <button>Submit</button>
+              
             </div>
           </div>
         </div>
