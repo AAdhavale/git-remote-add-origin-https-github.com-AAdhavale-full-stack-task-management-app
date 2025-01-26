@@ -7,6 +7,7 @@ const Footer = () => {
         <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
+                    <img src={assets.logo} alt='logo' className='logo' />
                     <p>
                         &copy; 2025 Delicious Bites. All rights reserved. We are committed to serving you the best quality food with exceptional service.
                         Visit us at our various locations or order online to enjoy your favorite meals delivered to your doorstep.

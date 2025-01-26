@@ -8,6 +8,7 @@
     padding : 20px 8vw;
     padding-top: 80px;
     width: 100%;
+    padding-top: 30px;
 }
 
 .footer-content{
@@ -24,7 +25,11 @@
 }
 
 
-
+.logo{
+    width: 150px;
+    border-radius: 28%;
+    margin-bottom: 10px;
+}
 
 .footer hr{
     width: 100%;
@@ -32,6 +37,10 @@
     margin: 20px 0;
     background-color: grey;
     border: none;
+}
+
+.footer-content-right ,  .footer-content-center{
+    margin-top: 150px;
 }
 
 @media (max-width: 900px) {
