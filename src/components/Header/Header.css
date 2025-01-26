@@ -25,7 +25,7 @@
     text-align: center;
     gap: 1.5vw; /* Aligns text in the center */
     color: white; /* Adjust as needed */
-    z-index: 2; /* Ensures the text is above the image */
+    z-index: 0; /* Ensures the text is above the image */
     padding: 10px;
     border-radius: 10px; /* Matches rounded corners */
     animation: fadeIn 3s;
@@ -50,4 +50,28 @@
     background-color: white;
     font-size: max(1vm , 13px);
     border-radius: 50px;;
+}
+
+@media (max-width: 1050px) {
+
+   
+    .header-content{
+        max-width: 45%;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .header-content{
+        max-width: 55%;
+    }
+
+    .header-content p{
+        display: none;
+    }
+
+    .header-content button{
+        padding: 2vw 4vw;
+    }
 }
