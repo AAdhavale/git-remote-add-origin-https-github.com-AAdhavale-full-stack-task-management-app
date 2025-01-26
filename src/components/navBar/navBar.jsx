@@ -2,10 +2,14 @@ import React, { useState } from 'react'
 import "./NavBar.css"
 import { assets } from '../../assets/Assets'
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { StoreContext } from '../../context/StoreContex';
 
 const NavBar = ({setShowLogin}) => {
 
   const [menu, setMenu] = useState("home");
+
+  const {getTotalCartAmount} = useContext(StoreContext);
 
   return (
     <div className='navbar'>
@@ -30,7 +34,7 @@ const NavBar = ({setShowLogin}) => {
           <img src={assets.basket}  className='s-logo' />
           </Link>
           
-          <div className='dot'></div>
+          <div className={getTotalCartAmount() === 0?"":"dot"}></div>
           
         </div>
 
